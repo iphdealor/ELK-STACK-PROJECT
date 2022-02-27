@@ -48,3 +48,21 @@ The configuration details of each machine may be found below.
 | Web-1             | UbuntuServer    | 10.0.0.7 / 40.114.124.38 | Linux              |
 | Web-2             | UbuntuServer    | 10.0.0.8 / 40.114.213.38 | Linux              |
 | ELKserver         | UbuntuServer    | 10.1.0.4 / 20.93.136.243 | Linux              |
+
+### Access Policies
+
+The machines on the internal network are not exposed to the public Internet. 
+
+Only the Jump Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+- 173.77.201.241 through TCP PORT 5601.
+Machines within the network can only be accessed by JUMP BOX VM and workstation through jump box ssh.
+- _TODO: Which machine did you allow to access your ELK VM? What was its IP address? Jump Box VM IP: 10.0.0.4 via ssh port 22. 
+
+A summary of the access policies in place can be found in the table below.
+|        Name        |  Publicly Accessible  |          Allowed IP Addresses           |
+|--------------------|-----------------------|-----------------------------------------|
+| Jump Box           | Yes                   | 173.77.201.241(Workstation IP on SSH 22)|
+| Web-1              | No                    | 10.0.0.7 on SSH 22                      |
+| Web-2              | No                    | 10.0.0.8 on SSH 22                      |
+| ELK server         | No                    | 10.1.0.4 on SSH 22                      |
+|           
