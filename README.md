@@ -21,3 +21,21 @@ This document contains the following details:
 - ELK Configuration
   - Beats in Use
   - Machines Being Monitored
+## Description of the Topology  
+
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
+Load balancing ensures that the application will be highly available, functional, in addition to restricting access to the network.
+
+- What aspect of security do load balancers protect?
+  - The Load balancers add resiliency by rerouting live traffic from one server to another if a server falls prey to a DDoS attack or otherwise becomes unavailable. 
+
+- What is the advantage of a jump box?
+  -  A jump box is a secure computer that all admins first connect to before launching any adminitrative task or use as an orgination point to connect to toher servers or untructed environments. A Jump Box Provisioner is also important as it prevents Azure VMs from being exposed via a public IP Address. This allows us to do monitoring and logging on a single box. We can also restrict the IP addresses able to communicate with the Jump Box, as we've done here.
+
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system logs.
+
+- What does Filebeat watch for?
+  - Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as a agent on servers. Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+ 
+- What does Metricbeat record?
+  - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash. It helps to monitor your servers and by collecting metrics from the system and services running on the server, such as Apache. 
