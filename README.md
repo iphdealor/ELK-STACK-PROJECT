@@ -134,4 +134,4 @@ The following screenshot displays the result of running `docker ps` after succes
 ![Docker_ps_screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/elk-docker-vm.jpg)
 
 Filebeat 
-![[Filebeat Module Status Screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-elkvm-image.jpg)
+![Filebeat Module Status Screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-elkvm-image.jpg)
