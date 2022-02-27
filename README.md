@@ -27,7 +27,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, functional, in addition to restricting access to the network.
 
 - What aspect of security do load balancers protect?
-  - The Load balancers add resiliency by rerouting live traffic from one server to another if a server falls prey to a DDoS attack or otherwise becomes unavailable. 
+  - The Load balancers add resiliency by rerouting live traffic from one server to another if a server falls prey to a DDoS attack or otherwise becomes unavailable. It is shifting attack traffic from corporate server to a public cloud provider. 
 
 - What is the advantage of a jump box?
   -  A jump box is a secure computer that all admins first connect to before launching any adminitrative task or use as an orgination point to connect to toher servers or untructed environments. A Jump Box Provisioner is also important as it prevents Azure VMs from being exposed via a public IP Address. This allows us to do monitoring and logging on a single box. We can also restrict the IP addresses able to communicate with the Jump Box, as we've done here.
