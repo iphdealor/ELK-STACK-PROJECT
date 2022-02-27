@@ -131,4 +131,4 @@ Specify a different group of machines:
              -  9200:9200
              -  5044:5044   
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-![Docker_ps_screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/elk-vm%20docker%20.jpg)
+![Docker_ps_screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/elk-docker-vm.jpg)
