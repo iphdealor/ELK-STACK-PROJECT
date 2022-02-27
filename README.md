@@ -144,3 +144,6 @@ Filebeat
 ![Filebeat Module Status Screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-elkvm-image.jpg)
 Metricbeat
 ![Metricbeat Module status Screenshots](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/metric-beat-docker-image.jpg)
+These Beats allow us to collect the following information from each machine:
+- Filebeat will be used to collect log files from very specific files such as Apache, Microsft Azure tools and web servers, MySQL databases.
+![kaban module Status Screen shot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/kibana-vm-screenshot.jpg)
