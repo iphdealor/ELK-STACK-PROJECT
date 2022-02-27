@@ -39,3 +39,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
  
 - What does Metricbeat record?
   - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash. It helps to monitor your servers and by collecting metrics from the system and services running on the server, such as Apache. 
+
+The configuration details of each machine may be found below.
+
+| Name              | Function        | IP Address               | Operating System   |
+|-------------------|-----------------|--------------------------|--------------------|
+| Jump Box          | Gateway         | 10.0.0.4 / 52.170.69.148 | Linux              |
+| Web-1             | UbuntuServer    | 10.0.0.7 / 40.114.124.38 | Linux              |
+| Web-2             | UbuntuServer    | 10.0.0.8 / 40.114.213.38 | Linux              |
+| ELKserver         | UbuntuServer    | 10.1.0.4 / 20.93.136.243 | Linux              |
