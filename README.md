@@ -132,3 +132,6 @@ Specify a different group of machines:
              -  5044:5044   
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![Docker_ps_screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/elk-docker-vm.jpg)
+
+Filebeat 
+![[Filebeat Module Status Screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-elkvm-image.jpg)
