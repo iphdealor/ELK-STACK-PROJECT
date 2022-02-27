@@ -143,3 +143,4 @@ The following screenshot displays the result of running `docker ps` after succes
 Filebeat 
 ![Filebeat Module Status Screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-elkvm-image.jpg)
 Metricbeat
+![Metricbeat Module status Screenshots](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/metric-beat-docker-image.jpg)
