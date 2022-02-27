@@ -8,12 +8,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
  * [My First Playbook](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/pentest.yml "My First Playbook")
 * [Hosts](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/hosts.yml)
-* [Ansible Configuration](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/ansible.cfg) "Ansible Configuration File")
+* [Ansible Configuration](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/ansible.cfg "Ansible Configuration File")
 * [Ansible ELK Installation and VM Configuration](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/install-elk.yml "ELK Installation and VM Configuration file")
 * [Filebeat Config](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-configuration.yml "Filebeat Configuration File")
 * [Filebeat Playbook](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-playbook.yml "Filebeat Playbook")
 * [Metricbeat Config](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/metricbeat-configuration.yml "Metricbeat Configuration File")
-* [Metricbeat Playbook](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/metricbeat-playbook.yml"Metricbeat Playbook")
+* [Metricbeat Playbook](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/metricbeat-playbook.yml "Metricbeat Playbook")
 
 This document contains the following details:
 - Description of the Topologu
