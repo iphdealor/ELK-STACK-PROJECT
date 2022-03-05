@@ -137,20 +137,18 @@ This ELK server is configured to monitor the following machines:
 - List the IP addresses of the machines you are monitoring
   - Web-1: 10.0.0.7
   - Web-2: 10.0.0.8
+  - ELK-SERVER: 10.1.0.4
   
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![Docker_ps_screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/elk-docker-vm.jpg)
-Filebeat 
+Filebeat, will be used to collect log files from very specific files such as Apache, Microsft Azure tools and web servers, MySQL databases.
 ![Filebeat Module Status Screenshot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/filebeat-elkvm-image.jpg)
+
 Metricbeat, is used to collect CPU stat, filesystem stat, memeory stat, number of containers.
 ![Metricbeat Module status Screenshots](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/metric-beat-docker-image.jpg)
-These Beats allow us to collect the following information from each machine:
-- Filebeat will be used to collect log files from Microsft Azure tools.
-![kaban module Status Screen shot](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/kibana-vm-screenshot.jpg)
 
-e have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
 
-These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+
+
+
 
