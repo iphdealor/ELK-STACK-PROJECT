@@ -147,6 +147,12 @@ Filebeat, will be used to collect log files from very specific files such as Apa
 Metricbeat, is used to collect CPU stat, filesystem stat, memeory stat, number of containers.
 ![Metricbeat Module status Screenshots](https://github.com/iphdealor/ELK-STACK-PROJECT/blob/main/metric-beat-docker-image.jpg)
 
+## Using the Playbook  
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
+
+- Verify the Public IP address to see if it has changed. [What Is My IP?](https://www.whatismyip.com/)
+- If changed then update the Security Rules that uses the My Public IPv4
+
 
 
 
