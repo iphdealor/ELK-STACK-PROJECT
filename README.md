@@ -157,6 +157,17 @@ SSH into the control node and follow the steps below:
 - Copy the yml file to ansible folder.
 - Update the config file to include remote_users and ports (5601 and 9001)
 - Run the playbook, and navigate to Kibana ((104.43.211.163:5601) to check that the installation worked as expected.
+- Answer the following questions to fill in the blanks:_
+- _Which file is the playbook? pentest.yml, filebeat-playbook.yml (for filebeat), metricbeat-playbook.yml ( for metricbeat) , Where do you copy it? /etc/ansible
+- Which file do you update to make Ansible run the playbook on a specific machine? (.yml) 
+How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+FOR ELKVM CONFIGURATION:
+Run the playbook using this command : ansible-playbook /etc/ansible/install-elk.yml
+For Filebeat:
+run this command: ansible-playbook /etc/ansible/filebeat-playbook.yml
+
+- _Which URL do you navigate to in order to check that the ELK server is running?
+http://104.43.211.163:5601/app/kibana#/home
 - 
 
 
