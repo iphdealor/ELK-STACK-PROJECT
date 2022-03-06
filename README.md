@@ -152,7 +152,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 - Verify the Public IP address to see if it has changed. [What Is My IP?](https://www.whatismyip.com/)
 - If changed then update the Security Rules that uses the My Public IPv4
+SSH into the control node and follow the steps below:
 
+- Copy the yml file to ansible folder.
+- Update the config file to include remote_users and ports (5601 and 9001)
+- Run the playbook, and navigate to Kibana ((104.43.211.163:5601) to check that the installation worked as expected.
+- 
 
 
 
